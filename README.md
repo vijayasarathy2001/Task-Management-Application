@@ -12,10 +12,13 @@ A simple web-based task management application.
 - View upcoming tasks, overdue tasks, and completed tasks.
 - Use the filter options to view specific sets of tasks.
 ## Technologies Used
-
+FRONT END:
 - HTML
 - CSS
 - JavaScript
+  
+STORAGE:
+-Local storage
 
 ## Prerequisites
 
