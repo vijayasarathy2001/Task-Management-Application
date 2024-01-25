@@ -10,11 +10,9 @@ A simple web-based task management application.
 - Mark tasks as complete.
 - Filter tasks based on priority and completion status.
 - View upcoming tasks, overdue tasks, and completed tasks.
-
+- Use the filter options to view specific sets of tasks.
 ## Technologies Used
 
 - HTML
 - CSS
 - JavaScript
-
-
