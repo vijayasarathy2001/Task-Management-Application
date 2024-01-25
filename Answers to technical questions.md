@@ -5,7 +5,7 @@ Answers to technical questions
 
 2. What was the most useful feature that was added to the latest version of your chosen language? Please include a snippet of code that shows how you've used it.
 
-One of the most useful features introduced in ES6  is arrow functions. Arrow functions provide a concise syntax for writing anonymous functions and come with lexical scoping, which means they inherit the this value from the surrounding code. This feature enhances code readability and reduces the verbosity of traditional function expressions.
+I had used One of the most useful features that is introduced in ES6  is arrow functions. Arrow functions provide a concise syntax for writing anonymous functions and come with lexical scoping, which means they inherit the this value from the surrounding code. This feature enhances code readability and reduces the verbosity of traditional function expressions.
 
 Here is the code snippet.
 
