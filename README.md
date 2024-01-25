@@ -23,7 +23,7 @@ STORAGE:
 
 ## Prerequisites
 
-- A browser That use V8 Eg.(chrome)
+- A browser That use V8 Engine(for faster experince) Eg.(chrome)
 - Open the HTML files in a web browser or set up a local development server.
 - Explore the features of the Task Management App.
 
