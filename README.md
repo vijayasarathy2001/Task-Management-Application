@@ -18,6 +18,7 @@ FRONT END:
 - JavaScript
   
 STORAGE:
+
 -Local storage
 
 ## Prerequisites
