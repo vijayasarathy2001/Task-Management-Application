@@ -16,3 +16,18 @@ A simple web-based task management application.
 - HTML
 - CSS
 - JavaScript
+
+## Prerequisites
+
+- A browser That use V8 Eg.(chrome)
+- Open the HTML files in a web browser or set up a local development server.
+- Explore the features of the Task Management App.
+
+## Installation
+Clone the repository: git clone https://github.com/vijayasarathy2001/Task-Management-Application.git
+
+## Usage
+Open index.html in your browser.
+
+## Contact
+For any inquiries or feedback, feel free to reach out to VIJAYASARATHY k at kvijayasarathy315@gmail.com
