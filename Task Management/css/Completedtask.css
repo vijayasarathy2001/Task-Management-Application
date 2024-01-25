@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    background-color: #333;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+#completed-task-list {
+    list-style: none;
+    padding: 0;
+}
+
+#completed-task-list li {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #fff;
+}
+
+#completed-task-list table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#completed-task-list td {
+    border: 1px solid #ccc;
+    padding: 8px;
+}
+
+#completed-task-list td:first-child {
+    font-weight: bold;
+    background-color: #f2f2f2;
+}
+
+
+@media screen and (max-width: 600px) {
+    #completed-tasks {
+        margin: 10px;
+        padding: 10px;
+    }
+
+    #completed-task-list li {
+        flex-direction: column; 
+    }
+
+    button {
+        font-size: 14px;
+    }
+}

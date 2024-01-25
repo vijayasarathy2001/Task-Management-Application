@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Management App</title>
+    <link rel="stylesheet" href="../CSS/Taskmanagement.css">
+    <script src="../JAVASCRIPT/Taskmanagement.js"></script>
+</head>
+<body>
+    <nav class="navbar">
+        <a href="../HTML/index.html">Dashboard</a>
+        <a href="../HTML/Taskmanagent.html">Task Management</a>
+        <a href="../HTML/Upcomingtask.html">Upcoming Tasks</a>
+        <a href="../HTML/Overdue.html">Overdue Tasks</a>
+        <a href="../HTML/Completed.html">Completed Tasks</a>
+    </nav>
+    <div id="app">
+        <div id="search-and-filter">
+            <input type="text" id="search-input" placeholder="Search tasks...">
+            <select id="priority-filter">
+                <option value="">Filter by Priority</option>
+                <option value="high">High</option>
+                <option value="medium">Medium</option>
+                <option value="low">Low</option>
+            </select>
+            <select id="status-filter">
+                <option value="">Filter by Status</option>
+                <option value="completed">Completed</option>
+                <option value="not-completed">Not Completed</option>
+            </select>
+            <button onclick="applyFilters()">Apply Filters</button>
+            <button onclick="resetFilters()">Reset Filters</button>
+        </div>
+
+        <div id="task-management">
+            <h2>Task Management</h2>
+            <form id="task-form">
+                <input type="text" id="title" placeholder="Title" required>
+                <textarea id="description" placeholder="Description"></textarea>
+                <input type="date" id="due-date" required>
+                <select id="priority">
+                    <option value="high">High</option>
+                    <option value="medium">Medium</option>
+                    <option value="low">Low</option>
+                </select>
+                <button type="button" onclick="saveTask()">Add Task</button>
+                <button type="button" onclick="cancelEdit()">Cancel</button>
+            </form>
+                        
+            <ul id="task-list">
+            </ul>
+
+        </div>
+    </div>
+</body>
+</html>
