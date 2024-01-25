@@ -19,7 +19,7 @@ FRONT END:
   
 STORAGE:
 
--Local storage
+- Local storage
 
 ## Prerequisites
 
