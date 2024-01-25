@@ -9,20 +9,16 @@ function saveTask() {
     const taskList = JSON.parse(localStorage.getItem('tasks')) || [];
 
     if (editingIndex !== -1) {
-        // Editing an existing task
         taskList[editingIndex] = { title, description, dueDate, priority, completed: false };
     } else {
-        // Adding a new task
         taskList.push({ title, description, dueDate, priority, completed: false });
     }
 
     localStorage.setItem('tasks', JSON.stringify(taskList));
 
-    // Reset the form and editing index
     document.getElementById('task-form').reset();
     editingIndex = -1;
 
-    // Update the displayed tasks
     displayTasks();
 }
 
@@ -48,7 +44,6 @@ function deleteTask(index) {
     taskList.splice(index, 1);
     localStorage.setItem('tasks', JSON.stringify(taskList));
 
-    // Update the displayed tasks
     displayTasks();
 }
 
@@ -57,7 +52,6 @@ function toggleComplete(index) {
     taskList[index].completed = !taskList[index].completed;
     localStorage.setItem('tasks', JSON.stringify(taskList));
 
-    // Update the displayed tasks
     displayTasks();
 }
 
@@ -70,7 +64,6 @@ function displayTasksInSection(tasks, sectionId) {
         taskItem.textContent = `Title: ${task.title}, Description: ${task.description}, Due Date: ${task.dueDate}, Priority: ${task.priority}`;
         taskListElement.appendChild(taskItem);
 
-        // Action buttons
         const buttonsDiv = document.createElement('div');
 
         const editButton = document.createElement('button');
