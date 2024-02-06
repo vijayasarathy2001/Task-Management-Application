@@ -3,6 +3,7 @@ Answers to technical questions
 1.How long did you spend on the coding test? 
 - 1 day
 
+
 2. What was the most useful feature that was added to the latest version of your chosen language? Please include a snippet of code that shows how you've used it.
 
 I had used One of the most useful features that is introduced in ES6  is arrow functions. Arrow functions provide a concise syntax for writing anonymous functions and come with lexical scoping, which means they inherit the this value from the surrounding code. This feature enhances code readability and reduces the verbosity of traditional function expressions.
@@ -44,6 +45,7 @@ function displayTasksInSection(tasks, sectionId) {
 }
 
 
+
 3. How would you track down a performance issue in production? Have you ever had to do this?
 To track down a performance issue in production for the Task Management application, I would take the following steps:
 
@@ -53,6 +55,7 @@ To track down a performance issue in production for the Task Management applicat
 - Code Review: Conduct a thorough code review to identify and optimize any inefficient algorithms or database queries.
 - 
 Yes, I have experience in tracking down performance issues in production environments.
+
 
 
 4. If you had more time, what additional features or improvements would you consider adding to the task management application?
